@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/regLogin.css">
+    <script src="script.js"></script>
+    <title>reg-html</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form class="auth-form" onsubmit="return false;">
+                <h1>Регистрация пользователя</h1>
+                <p>Есть аккаунт? <a href="login.html">Войдите</a></p>
+                <hr />
+                <div class="input">
+                    <h2>Имя пользователя</h2>
+                    <input placeholder="ssanina">
+                </div>
+                <div class="input">
+                    <h2>Адрес электронной почты</h2>
+                    <input placeholder="suka@blyat.com">
+                </div>
+                <div class="input">
+                    <h2>Пароль</h2>
+                    <input type="password" placeholder="••••••••••">
+                </div>
+                <div class="input">
+                    <h2>Повторите пароль</h2>
+                    <input type="password" placeholder="••••••••••">
+                </div>
+                <button onclick="goLobby();">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

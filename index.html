@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/icons-font.css">
+    <script src="script.js"></script>
+    <title>kanban-html</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="nav">
+                <img onclick="goAuth()" src="img/Menu.svg" />
+                <div class="menu">
+                    <img src="img/Time.svg" />
+                    <img src="img/Calendar.svg" />
+                    <img src="img/Email.svg" />
+                    <img src="img/Account.svg" />
+                    <img src="img/Settings.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tools">
+                <div class="header">
+                    <span>Лобби №1</span>
+                    <img src="img/Chevron down.svg">
+                </div>
+                <div class="buttons">
+                    <img src="img/Other button.svg">
+                    <img src="img/Chat button.svg">
+                    <button class="add-lobby">Добавить лобби <img src="img/Add empty.svg"></img></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tasks">
+                <div class="task-col">
+                    <div class="task-head">
+                        <span>В планах</span>
+                        <div class="task-img">
+                            <img src="img/Add empty.svg">
+                            <img src="img/More horizontal.svg">
+                        </div>
+                    </div>
+
+                    <div class="task-content">
+                        <div class="task">
+                            <span>14 дней до окончания срока</span>
+                            <div class="row">
+                                <p>Написать техническое задание для разработчиков</p>
+                                <img src="img/Avatar.svg">
+                            </div>
+                        </div>
+                        <div class="task">
+                            <span>14 дней до окончания срока</span>
+                            <div class="row">
+                                <p>Написать техническое задание для разработчиков</p>
+                                <img src="img/Avatar.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="task-col">
+                    <div class="task-head">
+                        <span>В работе</span>
+                        <div class="task-img">
+                            <img src="img/Add empty.svg">
+                            <img src="img/More horizontal.svg">
+                        </div>
+                    </div>
+
+                    <div class="task-content">
+                        <div class="task">
+                            <span>14 дней до окончания срока</span>
+                            <div class="row">
+                                <p>Написать техническое задание для разработчиков</p>
+                                <img src="img/Avatar.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="task-col">
+                    <div class="task-head">
+                        <span>Отложено</span>
+                        <div class="task-img">
+                            <img src="img/Add empty.svg">
+                            <img src="img/More horizontal.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="task-col last">
+                    <div class="task-head">
+                        <span>Готово</span>
+                        <div class="task-img">
+                            <img src="img/Add empty.svg">
+                            <img src="img/More horizontal.svg">
+                        </div>
+                    </div>
+                    <div class="task-content">
+                        <div class="task">
+                            <span>14 дней до окончания срока</span>
+                            <div class="row">
+                                <p>Написать техническое задание для разработчиков</p>
+                                <img src="img/Avatar.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
